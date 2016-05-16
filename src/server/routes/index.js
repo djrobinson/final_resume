@@ -28,4 +28,8 @@ router.post('/email', function(req, res, next){
   });
 });
 
+router.get('/resume', function(req, res, next){
+  res.redirect('/resume/Danny_Robinson_Resume.pdf');
+});
+
 module.exports = router;
